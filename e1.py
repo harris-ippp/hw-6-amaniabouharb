@@ -16,4 +16,4 @@ for row in trs:
         hayda.append(alldata)
         print(year, baddehhol)
 with open('ELECTION_ID', 'w') as f:
-     json.dump(hayda, f)
+     json.dump(hayda, f) ### Not quite the format we requested but since it works for your e2 it's ok
